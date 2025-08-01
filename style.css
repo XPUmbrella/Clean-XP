@@ -4,77 +4,14 @@ body {
     padding: 0;
     background-color: #121212;
     color: #ffffff;
-}
-
-header {
-    background-color: #1f1f1f;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 1px solid #333;
-}
-
-header h1 {
-    margin: 0;
-    color: #ffffff;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-.services-container {
     display: flex;
-    justify-content: space-between;
-}
-
-.service-region {
-    width: 48%;
-}
-
-footer {
-    background-color: #1f1f1f;
-    color: #ffffff;
-    padding: 20px;
-    border-top: 1px solid #333;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.quick-links,
-.contact-us,
-.follow-us,
-.stay-updated {
-    width: 23%;
-}
-
-.copyright {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     text-align: center;
-    margin-top: 20px;
 }
 
-.copyright p {
-    font-size: 0.8em;
+.container {
+    max-width: 600px;
+    padding: 20px;
 }
